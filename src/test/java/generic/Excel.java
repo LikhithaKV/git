@@ -10,8 +10,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class Excel {
 
-	String val="";
-	Workbook wb=null;
+	String val;
+	Workbook wb;
 	public String readData(String sheet, int row, int cell) {
 FileInputStream fis;
 try {
